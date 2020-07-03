@@ -1,0 +1,49 @@
+html {
+  text-align: center;
+  color: white;
+  background-color :skyblue;
+}
+
+a.link {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+nav {
+  background-image: url("favicon.ico"); 
+  background-position: center;
+  padding-bottom:50px;
+  padding-top:50px;
+}
+
+a.robocoder {
+  border: 6px solid crimson;
+  padding: 60px 128px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  background-position: center;
+  background-image: url("images/robo-coder.jpg");
+}
+
+a.discordpie {
+  border: 6px solid crimson;
+  padding: 60px 128px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  background-position: center;
+  background-image: url("images/discordpie.jpg");
+}
+
