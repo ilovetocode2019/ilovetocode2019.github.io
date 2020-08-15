@@ -59,6 +59,18 @@ a.discordpie {
   background-image: url("images/discordpie.jpg");
 }
 
+a.telegrampy {
+  border: 6px solid crimson;
+  padding: 60px 128px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  background-position: center;
+  background-image: url("images/telegrampy.png");
+}
+
 a.python {
   border: 6px solid crimson;
   padding: 60px 128px;
