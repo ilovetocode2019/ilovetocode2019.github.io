@@ -23,7 +23,7 @@ nav {
   padding-top:50px;
 }
 
-a.robocoder {
+a.telegrampy {
   border: 6px solid crimson;
   padding: 60px 128px;
   border-radius: 15px;
@@ -32,7 +32,20 @@ a.robocoder {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/robo-coder.jpg");
+  background-image: url("images/telegrampy.png");
+}
+
+a.stickers {
+  border: 6px solid crimson;
+  padding: 60px 128px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  background-position: center;
+  background-image: url("images/stickers.webp");
+  background-size: 200px;
 }
 
 a.highlight {
@@ -47,7 +60,7 @@ a.highlight {
   background-image: url("images/highlight.jpg");
 }
 
-a.discordpie {
+a.robocoder {
   border: 6px solid crimson;
   padding: 60px 128px;
   border-radius: 15px;
@@ -56,30 +69,6 @@ a.discordpie {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/discordpie.jpg");
+  background-image: url("images/robo-coder.jpg");
+  background-size: 300px;
 }
-
-a.telegrampy {
-  border: 6px solid crimson;
-  padding: 60px 128px;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  background-position: center;
-  background-image: url("images/telegrampy.png");
-}
-
-a.python {
-  border: 6px solid crimson;
-  padding: 60px 128px;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  background-position: center;
-  background-image: url("images/python.jpg");
-}
-
