@@ -23,7 +23,8 @@ nav {
   padding-top:50px;
 }
 
-a.telegrampy {
+
+a.robocoder {
   border: 6px solid crimson;
   padding: 60px 128px;
   border-radius: 15px;
@@ -32,7 +33,20 @@ a.telegrampy {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/telegrampy.png");
+  background-image: url("images/robocoder.jpg");
+  background-size: 300px;
+}
+
+a.highlight {
+  border: 6px solid crimson;
+  padding: 60px 128px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  background-position: center;
+  background-image: url("images/highlight.jpg");
 }
 
 a.stickers {
@@ -48,7 +62,7 @@ a.stickers {
   background-size: 200px;
 }
 
-a.highlight {
+a.telegrampy {
   border: 6px solid crimson;
   padding: 60px 128px;
   border-radius: 15px;
@@ -57,18 +71,5 @@ a.highlight {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/highlight.jpg");
-}
-
-a.robocoder {
-  border: 6px solid crimson;
-  padding: 60px 128px;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  background-position: center;
-  background-image: url("images/robo-coder.jpg");
-  background-size: 300px;
+  background-image: url("images/telegrampy.png");
 }
