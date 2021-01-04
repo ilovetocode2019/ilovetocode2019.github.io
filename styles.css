@@ -34,7 +34,7 @@ a.robocoder {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/robocoder.png");
+  background-image: url("assets/robocoder.png");
   background-size: 300px;
   color: #414A4C;
   font-weight: bold;
@@ -49,7 +49,7 @@ a.highlight {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/highlight.png");
+  background-image: url("assets/highlight.png");
   color: #414A4C;
   font-weight: bold;
 }
@@ -63,7 +63,7 @@ a.emotewizard {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/emotewizard.png");
+  background-image: url("assets/emotewizard.png");
   background-size: 200px;
   color: #414A4C;
   font-weight: bold;
@@ -78,7 +78,7 @@ a.telegrampy {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/telegrampy.png");
+  background-image: url("assets/telegrampy.png");
   color: #414A4C;
   font-weight: bold;
 }
