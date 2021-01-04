@@ -13,7 +13,9 @@ a.link {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: purple;
+  color: #414A4C;
+  background-color: skyblue;
+  font-weight: bold;
 }
 
 nav {
@@ -34,6 +36,8 @@ a.robocoder {
   background-position: center;
   background-image: url("images/robocoder.png");
   background-size: 300px;
+  color: #414A4C;
+  font-weight: bold;
 }
 
 a.highlight {
@@ -46,6 +50,8 @@ a.highlight {
   margin: 4px 2px;
   background-position: center;
   background-image: url("images/highlight.png");
+  color: #414A4C;
+  font-weight: bold;
 }
 
 a.emotewizard {
@@ -59,6 +65,8 @@ a.emotewizard {
   background-position: center;
   background-image: url("images/emotewizard.png");
   background-size: 200px;
+  color: #414A4C;
+  font-weight: bold;
 }
 
 a.telegrampy {
@@ -71,4 +79,6 @@ a.telegrampy {
   margin: 4px 2px;
   background-position: center;
   background-image: url("images/telegrampy.png");
+  color: #414A4C;
+  font-weight: bold;
 }
