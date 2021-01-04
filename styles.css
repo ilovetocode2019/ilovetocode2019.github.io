@@ -19,7 +19,7 @@ a.link {
 }
 
 nav {
-  background-image: url("favicon.ico"); 
+  background-image: linear-gradient(to bottom right, darkblue, lightblue); 
   background-position: center;
   padding-bottom:50px;
   padding-top:50px;
