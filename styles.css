@@ -16,7 +16,6 @@ a.link {
   background-color: purple;
 }
 
-
 nav {
   background-image: url("favicon.ico"); 
   background-position: center;
@@ -33,7 +32,7 @@ a.robocoder {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/robocoder.jpg");
+  background-image: url("images/robocoder.png");
   background-size: 300px;
 }
 
@@ -46,10 +45,10 @@ a.highlight {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/highlight.jpg");
+  background-image: url("images/highlight.png");
 }
 
-a.stickers {
+a.emotewizard {
   border: 6px solid crimson;
   padding: 60px 128px;
   border-radius: 15px;
@@ -58,7 +57,7 @@ a.stickers {
   display: inline-block;
   margin: 4px 2px;
   background-position: center;
-  background-image: url("images/stickers.webp");
+  background-image: url("images/emotewizard.png");
   background-size: 200px;
 }
 
