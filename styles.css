@@ -5,16 +5,17 @@ html {
 }
 
 a.link {
-  background-color: purple;
-  border: none;
-  color: white;
+  border: 6px;
   padding: 15px 32px;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+  background-color: purple;
 }
+
 
 nav {
   background-image: url("favicon.ico"); 
@@ -22,7 +23,6 @@ nav {
   padding-bottom:50px;
   padding-top:50px;
 }
-
 
 a.robocoder {
   border: 6px solid crimson;
