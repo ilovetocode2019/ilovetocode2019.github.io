@@ -4,7 +4,14 @@ html {
   background-color :skyblue;
 }
 
-a.link {
+nav {
+  background-image: linear-gradient(to bottom right, darkblue, lightblue); 
+  background-position: center;
+  padding-bottom:50px;
+  padding-top:50px;
+}
+
+a.profile {
   border: 6px;
   padding: 15px 32px;
   border-radius: 5px;
@@ -15,70 +22,5 @@ a.link {
   cursor: pointer;
   color: #414A4C;
   background-color: skyblue;
-  font-weight: bold;
-}
-
-nav {
-  background-image: linear-gradient(to bottom right, darkblue, lightblue); 
-  background-position: center;
-  padding-bottom:50px;
-  padding-top:50px;
-}
-
-a.robocoder {
-  border: 6px solid crimson;
-  padding: 60px 128px;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  background-position: center;
-  background-image: url("assets/robocoder.png");
-  background-size: 300px;
-  color: #414A4C;
-  font-weight: bold;
-}
-
-a.highlight {
-  border: 6px solid crimson;
-  padding: 60px 128px;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  background-position: center;
-  background-image: url("assets/highlight.png");
-  color: #414A4C;
-  font-weight: bold;
-}
-
-a.emotewizard {
-  border: 6px solid crimson;
-  padding: 60px 128px;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  background-position: center;
-  background-image: url("assets/emotewizard.png");
-  background-size: 200px;
-  color: #414A4C;
-  font-weight: bold;
-}
-
-a.telegrampy {
-  border: 6px solid crimson;
-  padding: 60px 128px;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  background-position: center;
-  background-image: url("assets/telegrampy.png");
-  color: #414A4C;
   font-weight: bold;
 }
