@@ -1,17 +1,17 @@
-html {
+body {
   text-align: center;
   color: white;
   background-color :skyblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-  background-image: linear-gradient(to bottom right, darkblue, lightblue); 
-  background-position: center;
-  padding-bottom:50px;
-  padding-top:50px;
+.about {
+  background-image: linear-gradient(to bottom right, darkblue, lightblue);
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-a.profile {
+.link {
   border: 6px;
   padding: 15px 32px;
   border-radius: 5px;
@@ -23,4 +23,9 @@ a.profile {
   color: #414A4C;
   background-color: skyblue;
   font-weight: bold;
+}
+
+.projects {
+  display: grid;
+  grid-auto-flow: row;
 }
