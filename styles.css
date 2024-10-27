@@ -1,3 +1,7 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   color: white;
   font-family: "Open Sans", sans-serif;
