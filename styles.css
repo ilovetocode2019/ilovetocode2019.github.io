@@ -12,8 +12,8 @@ body {
 .overview {
   background: rgba(0, 0, 0, 0.1);
   padding-left: 50px;
-  padding-top: 75px;
-  padding-bottom: 65px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .link {
@@ -39,6 +39,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+.section ul {
+  text-indent: -1em;
+  padding-left: 1em;
+  list-style-position: inside;
 }
 
 @media (max-width: 500px) {
