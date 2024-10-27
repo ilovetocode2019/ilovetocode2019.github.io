@@ -10,8 +10,10 @@ body {
 
 
 .overview {
-  background: rgba(0, 0, 0, 0.05);
-  padding: 50px;
+  background: rgba(0, 0, 0, 0.1);
+  padding-left: 50px;
+  padding-top: 75px;
+  padding-bottom: 65px;
 }
 
 .link {
@@ -41,14 +43,20 @@ body {
 
 @media (max-width: 500px) {
   body {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .section, .overview {
-    padding-left: 35px;
+    padding-left: 30px;
   }
 
   .projects-container img {
     width: 330px;
+  }
+}
+
+@media (max-width: 375px) {
+  .projects-container img {
+    width: 300px;
   }
 }
