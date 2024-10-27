@@ -16,7 +16,7 @@ body {
 
 .link {
   border: 6px;
-  padding: 15px 32px;
+  padding: 10px 25px;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
@@ -37,4 +37,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 18px;
+  }
+
+  .section, .overview {
+    padding-left: 35px;
+  }
+
+  .projects-container img {
+    width: 330px;
+  }
 }
