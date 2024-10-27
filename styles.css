@@ -1,16 +1,17 @@
 body {
-  text-align: center;
   color: white;
-  background-color :skyblue;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to left, rgb(0, 82, 212), rgb(67, 100, 247));
+  line-height: 1.4;
+  font-size: 19px;
 }
 
-.about {
-  background-image: linear-gradient(to bottom right, darkblue, lightblue);
-  padding-bottom: 50px;
-  padding-top: 50px;
+
+.overview {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 50px;
 }
 
 .link {
@@ -21,13 +22,19 @@ body {
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
-  cursor: pointer;
-  color: #414A4C;
-  background-color: skyblue;
+  color: inherit;
+  background-color: rgb(68, 146, 234);
   font-weight: bold;
 }
 
-.projects {
-  display: grid;
-  grid-auto-flow: row;
+.section {
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
