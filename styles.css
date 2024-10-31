@@ -58,15 +58,10 @@ body {
 
   .section, .overview {
     padding-left: 30px;
+    padding-right: 20px;
   }
 
   .projects-container img {
-    width: 330px;
-  }
-}
-
-@media (max-width: 375px) {
-  .projects-container img {
-    width: 300px;
+    width: 100%;
   }
 }
